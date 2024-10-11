@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Customized Webpage</title>
+  <!-- Bootstrap CSS (no JS) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="custom-header">
+    <h1>My Bootstrap Webpage</h1>
+    <p>Custom Layout and Customization with Bootstrap</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container custom-section">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <h2>Responsive Layout</h2>
+        <p>This section uses Bootstrap's grid system to create a responsive layout that adjusts based on the screen size. Resize the window to see how the layout changes.</p>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <img src="https://via.placeholder.com/500x300" alt="Sample Image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section class="container-fluid custom-bg">
+    <div class="container custom-section">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Service 1</h5>
+              <p class="card-text">Description of Service 1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Service 2</h5>
+              <p class="card-text">Description of Service 2.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Service 3</h5>
+              <p class="card-text">Description of Service 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="custom-footer">
+    <p>&copy; 2024 My Bootstrap Webpage</p>
+  </footer>
+
+</body>
+</html>

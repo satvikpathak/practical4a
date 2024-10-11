@@ -1,0 +1,53 @@
+/* Custom styles */
+.custom-bg {
+    background-color: #f8f9fa;
+  }
+  
+  .custom-header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .custom-section {
+    padding: 40px;
+  }
+  
+  .custom-footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Remove margin on body to eliminate scroll bars */
+  body {
+    margin: 0;
+  }
+  
+  /* Responsive image style */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Simple CSS for Navbar Toggler */
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  /* Make the custom button style */
+  .custom-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+  
